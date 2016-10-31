@@ -203,6 +203,15 @@ $color-annotation: $color-fsa-secondary; //  $color-fsa-red
 
   }
 
+  &__section-title {
+    position: relative;
+  }
+
+  &__section-link {
+    position: absolute;
+    right: 0;
+  }
+
   &__intro {
     padding-top: $size-medium;
     padding-bottom: $size-medium;
